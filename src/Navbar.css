@@ -1,0 +1,184 @@
+/* Made by : Callum Frodsham 300199446 */
+.header{
+    background-color: #0e1111f7;
+    width: 100%;
+    z-index: 1000;
+    margin:0;
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    background-color: #0e1111f7;
+    margin: 0;
+    width: 100%;
+    justify-content: left;
+    display: flex;
+    align-items: center;
+}
+
+
+.orderAnalyticsButton:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #e7d6d6 0 -1px 0 inset;
+    transform: translateY(-1px);
+}
+
+.orderAnalyticsButton:active {
+    box-shadow: #D6D6E7 0px 1px 5px inset;
+    transform: translateY(2px);
+}
+
+.reviewAnalyticsButton:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px,  #e7d6d6 0 -1px 0 inset;
+    transform: translateY(-1px);
+}
+  
+.reviewAnalyticsButton:active {
+    box-shadow: #D6D6E7 0px 1px 5px inset;
+    transform: translateY(2px);
+}
+
+/* Desktop Styles*/
+@media screen and (min-width: 1024px) {
+    .headerText{   
+        margin:0;
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        margin-left: 2.4%;
+        font-size: 47px; 
+        color: #fffffff1;
+        text-shadow: #340404 -1px 3px 1px;
+    }
+    .navBarText{
+        font-family: "Oswald", sans-serif;
+        margin: 0;
+        margin-left: 2.4%;
+        color:#fffffff1;
+        font-size: 44px; 
+        text-shadow: #340404 -1px 3px 1px;
+    }
+    .pizzaLogo{
+        margin:0;
+        max-width: 60px;
+        margin-left: 5px;
+    }
+    .orderAnalyticsButton, .reviewAnalyticsButton{
+        align-items: center;
+        appearance: none;
+        background-color: #0e1111f7;
+        border-radius: 4px;
+        border-width: 2px;
+        border-color: #fffffff1;
+        box-sizing: border-box;
+        color: #fffffff1;
+        cursor: pointer;
+        display: inline-flex;
+        font-family: "Oswald", sans-serif;
+        height: 50px;
+        font-size: 26px;
+        justify-content: center;
+        line-height: 1;
+        list-style: none;
+        overflow: hidden;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+        text-align: center;
+        transition: box-shadow .15s,transform .15s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        white-space: nowrap;
+        will-change: box-shadow,transform;
+        width: 220px;
+    }
+    .buttonBox{
+        display: flex;
+        justify-content: center;
+        gap: 3vw;
+        flex-grow: 0.85;
+        width: 10%;
+        margin-right: 12.5%;
+    }
+    .breakLine{
+        margin: 0;
+        height: 3px;
+        background-color: #850b0b;
+        border:none;
+    }
+}
+
+
+/* Phone Styles*/
+@media screen and (max-width:1023px){
+    .headerText{   
+        margin:0;
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        margin-left: 2.4%;
+        font-size: 23px; 
+        color: #fffffff1;
+        text-shadow: #340404 -1px 3px 1px;
+    }
+    .navBarText{
+        font-family: "Oswald", sans-serif;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        margin-left: 2.4%;
+        color:#fffffff1;
+        font-size: 12px; 
+        text-shadow: #340404 -1px 3px 1px;
+    }
+    .pizzaLogo{
+        margin:0;
+        max-width: 35px;
+        margin-left: 5px;
+    }
+    .orderAnalyticsButton, .reviewAnalyticsButton{
+        align-items: center;
+        appearance: none;
+        background-color: #0e1111f7;
+        border-radius: 4px;
+        border-width: 2px;
+        border-color: #fffffff1;
+        box-sizing: border-box;
+        color: #fffffff1;
+        cursor: pointer;
+        display: inline-flex;
+        font-family: "Oswald", sans-serif;
+        height: 20px;
+        font-size: 12px;
+        justify-content: center;
+        line-height: 1;
+        list-style: none;
+        overflow: hidden;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+        text-align: center;
+        transition: box-shadow .15s,transform .15s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        white-space: nowrap;
+        will-change: box-shadow,transform;
+        width:100px;
+    }
+    .buttonBox{
+        display: flex;
+        justify-content: center;
+        gap: 3vw;
+        flex-grow: 0.85;
+        width: 10%;
+    }
+    .breakLine{
+        margin: 0;
+        height: 2px;
+        background-color: #850b0b;
+        border:none;
+    }
+
+}

@@ -1,0 +1,247 @@
+[
+    {
+        "review_id": 1,
+        "sentiment": "delighted",
+        "store": "Kanata",
+        "date": "2023-01-05",
+        "message": "Absolutely loved the pizza, excellent service!"
+    },
+    {
+        "review_id": 2,
+        "sentiment": "happy",
+        "store": "Orleans",
+        "date": "2023-02-15",
+        "message": "Great atmosphere and delicious pizza."
+    },
+    {
+        "review_id": 3,
+        "sentiment": "sad",
+        "store": "Downtown",
+        "date": "2023-03-25",
+        "message": "Disappointed with the pizza quality."
+    },
+    {
+        "review_id": 4,
+        "sentiment": "angry",
+        "store": "Sandy Hill",
+        "date": "2023-04-10",
+        "message": "Terrible experience, will not come back."
+    },
+    {
+        "review_id": 5,
+        "sentiment": "happy",
+        "store": "The Glebe",
+        "date": "2023-05-20",
+        "message": "Amazing pizza and friendly staff!"
+    },
+    {
+        "review_id": 6,
+        "sentiment": "delighted",
+        "store": "Kanata",
+        "date": "2023-06-02",
+        "message": "Best pizza I've ever had, highly recommended."
+    },
+    {
+        "review_id": 7,
+        "sentiment": "sad",
+        "store": "Orleans",
+        "date": "2023-07-12",
+        "message": "Service was slow, and the pizza was cold."
+    },
+    {
+        "review_id": 8,
+        "sentiment": "happy",
+        "store": "Downtown",
+        "date": "2023-08-08",
+        "message": "Lovely ambiance and tasty pizza."
+    },
+    {
+        "review_id": 9,
+        "sentiment": "angry",
+        "store": "Sandy Hill",
+        "date": "2023-09-03",
+        "message": "Unpleasant staff and overpriced pizza."
+    },
+    {
+        "review_id": 10,
+        "sentiment": "delighted",
+        "store": "The Glebe",
+        "date": "2023-10-15",
+        "message": "Fantastic pizza, and the staff went above and beyond!"
+    },
+    {
+        "review_id": 11,
+        "sentiment": "happy",
+        "store": "Kanata",
+        "date": "2023-11-05",
+        "message": "Enjoyed every bite, will definitely return."
+    },
+    {
+        "review_id": 12,
+        "sentiment": "sad",
+        "store": "Orleans",
+        "date": "2023-12-20",
+        "message": "Pizza quality has declined, not satisfied."
+    },
+    {
+        "review_id": 13,
+        "sentiment": "angry",
+        "store": "Downtown",
+        "date": "2023-01-13",
+        "message": "Rude staff and a bad overall experience."
+    },
+    {
+        "review_id": 14,
+        "sentiment": "happy",
+        "store": "Sandy Hill",
+        "date": "2023-02-28",
+        "message": "Delicious pizza, quick service."
+    },
+    {
+        "review_id": 15,
+        "sentiment": "delighted",
+        "store": "The Glebe",
+        "date": "2023-03-17",
+        "message": "Exceptional pizza, worth every penny."
+    },
+    {
+        "review_id": 16,
+        "sentiment": "angry",
+        "store": "Kanata",
+        "date": "2023-04-02",
+        "message": "Poor service and mediocre pizza."
+    },
+    {
+        "review_id": 17,
+        "sentiment": "happy",
+        "store": "Orleans",
+        "date": "2023-05-19",
+        "message": "Great variety of pizzas, loved the options."
+    },
+    {
+        "review_id": 18,
+        "sentiment": "delighted",
+        "store": "Downtown",
+        "date": "2023-06-25",
+        "message": "A delightful experience, will be back soon!"
+    },
+    {
+        "review_id": 19,
+        "sentiment": "sad",
+        "store": "Sandy Hill",
+        "date": "2023-07-14",
+        "message": "Pizza was cold, and the staff seemed uninterested."
+    },
+    {
+        "review_id": 20,
+        "sentiment": "happy",
+        "store": "The Glebe",
+        "date": "2023-08-27",
+        "message": "Cozy atmosphere and mouth-watering pizza."
+    },
+    {
+        "review_id": 21,
+        "sentiment": "angry",
+        "store": "Kanata",
+        "date": "2023-09-08",
+        "message": "Terrible customer service and below-average pizza."
+    },
+    {
+        "review_id": 22,
+        "sentiment": "delighted",
+        "store": "Orleans",
+        "date": "2023-10-01",
+        "message": "Absolutely loved the pizza, a hidden gem!"
+    },
+    {
+        "review_id": 23,
+        "sentiment": "sad",
+        "store": "Downtown",
+        "date": "2023-11-11",
+        "message": "Disappointing experience, won't recommend."
+    },
+    {
+        "review_id": 24,
+        "sentiment": "happy",
+        "store": "Sandy Hill",
+        "date": "2023-12-29",
+        "message": "Delicious pizza, friendly staff."
+    },
+    {
+        "review_id": 25,
+        "sentiment": "delighted",
+        "store": "The Glebe",
+        "date": "2023-01-15",
+        "message": "Top-notch pizza and excellent service."
+    },
+    {
+        "review_id": 26,
+        "sentiment": "angry",
+        "store": "Kanata",
+        "date": "2023-02-03",
+        "message": "Worst pizza place ever, avoid at all costs."
+    },
+    {
+        "review_id": 27,
+        "sentiment": "happy",
+        "store": "Orleans",
+        "date": "2023-03-20",
+        "message": "Satisfied with the pizza and overall experience."
+    },
+    {
+        "review_id": 28,
+        "sentiment": "sad",
+        "store": "Downtown",
+        "date": "2023-04-10",
+        "message": "Cold pizza and unprofessional staff."
+    },
+    {
+        "review_id": 29,
+        "sentiment": "angry",
+        "store": "Sandy Hill",
+        "date": "2023-05-05",
+        "message": "Terrible service, not worth the visit."
+    },
+    {
+        "review_id": 30,
+        "sentiment": "happy",
+        "store": "The Glebe",
+        "date": "2023-06-15",
+        "message": "Great pizza, will be back for more."
+    },
+    {
+        "review_id": 31,
+        "sentiment": "delighted",
+        "store": "Kanata",
+        "date": "2023-07-03",
+        "message": "Exceptional pizza quality and friendly staff."
+    },
+    {
+        "review_id": 32,
+        "sentiment": "sad",
+        "store": "Orleans",
+        "date": "2023-08-18",
+        "message": "Not impressed with the pizza, needs improvement."
+    },
+    {
+        "review_id": 33,
+        "sentiment": "happy",
+        "store": "Downtown",
+        "date": "2023-09-25",
+        "message": "Enjoyed the pizza and the cozy atmosphere."
+    },
+    {
+        "review_id": 34,
+        "sentiment": "angry",
+        "store": "Sandy Hill",
+        "date": "2023-10-12",
+        "message": "Waste of money, terrible pizza."
+    },
+    {
+        "review_id": 35,
+        "sentiment": "delighted",
+        "store": "The Glebe",
+        "date": "2023-11-28",
+        "message": "Fantastic pizza and excellent service."
+    }
+]

@@ -1,0 +1,59 @@
+/* Made by : Callum Frodsham 300199446 */
+.totalHeader{
+    color:#fffffff1 ;
+    margin:0;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-shadow: #340404 -1px 3px 1px;
+    font-size: 30px;
+}
+.profitContainer{
+    background-color: #0e1111f7;
+    margin:0;
+    z-index: 1;
+}
+.chartContainer{
+    background-color: #0e1111f7;
+    display:flex;
+    align-items: center;
+    width:100%;
+    height: 400px;
+    justify-content: center;
+    gap: 200px;
+}
+.barChart{
+    background-color:#0e1111f7;
+    border: 3px solid #fffffff1;
+    border-radius: 20px;
+}
+.chartHeaderContainer{
+    display: flex;
+    align-items: center;
+    background-color:#0e1111f7 ;
+    gap: 500px;
+    justify-content: center;
+}
+.barChartText{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    text-shadow: #340404 -1px 3px 1px;
+}
+.lineChartText{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    text-shadow: #340404 -1px 3px 1px;
+}
+.lineChart{
+    background-color:#0e1111f7;
+    border: 3px solid #fffffff1;
+    border-radius: 20px;
+    padding-right: 30px;
+}
+.orderAnalyticsBox{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #0e1111;
+}
