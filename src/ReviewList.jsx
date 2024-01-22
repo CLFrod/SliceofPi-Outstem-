@@ -6,7 +6,11 @@ import sad from './assets/img/sad.ico';
 import angry from './assets/img/angry.ico';
 import  delighted from './assets/img/delighted.ico';
 
-
+/**
+ * 
+ * @param {Review} review  
+ * @returns an icon depending on the given review sentiment
+ */
 function getIcon(review){
     if(review.getSentiment() == "delighted"){
         return delighted;
@@ -22,6 +26,9 @@ function getIcon(review){
     }
 }
 
+// this arrow function returns the "Comment"
+// component given a specific review 
+// had to call it "comment" because you cant call it Review since i already have a class "Review"
 const Comment = ({ review }) => {
     return (
         <div className="reviewBox">
@@ -35,6 +42,8 @@ const Comment = ({ review }) => {
     );
 };
 
+// this ReviewList component creates a list of reviews based off 
+// the review data, and the comment component above.
 function ReviewList({reviews}){
     return (
         <div className='reviewList'>
